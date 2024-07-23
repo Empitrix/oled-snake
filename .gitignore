@@ -1,0 +1,18 @@
+*.out
+*.exe
+*.pdb
+*.dll
+*.so
+
+# directories
+build/
+dist/
+
+# should be created by the user
+sdkconfig
+sdkconfig.old
+
+# editor config
+main/.clangd
+main/tmp
+
