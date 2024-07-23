@@ -112,8 +112,9 @@ void app_main(void){
 
 		ssd1306_load_frame_buffer(&dev, fb);  // load buffer into the display
 
-		int d = 200 - rules.gpoints * 4;
-		dlay((d  > 10) ? d : 10);
+		int s = 200 - rules.gpoints * 4;
+		dlay((s  > 10) ? s : 10);
+		printf("GAME SPEED: %d\n", s);
 
 	}
 

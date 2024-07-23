@@ -11,7 +11,7 @@
 
 #define GPIO_RIGHT 15  // D8
 #define GPIO_DOWN  13  // D7
-#define GPIO_UP    12  // D4
+#define GPIO_UP    12  // D6
 #define GPIO_LEFT  14  // D5
 
 // DISPLAY (PINTS)
